@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <!--<bean id="thriftPoolConfig"-->
+          <!--class="com.meituan.service.mobile.mtthrift.client.pool.MTThriftPoolConfig">-->
+        <!--<property name="maxActive" value="100"/>-->
+        <!--<property name="minIdle" value="10"/>-->
+        <!--<property name="maxIdle" value="50"/>-->
+        <!--<property name="testOnBorrow" value="true"/>-->
+        <!--<property name="testOnReturn" value="true"/>-->
+        <!--<property name="testWhileIdle" value="true"/>-->
+    <!--</bean>-->
+
+    <!--<bean class="com.meituan.service.mobile.mtthrift.proxy.ThriftClientProxy"-->
+          <!--destroy-method="destroy">-->
+        <!--<property name="serviceInterface"-->
+                  <!--value="com.starocto.dao.api.service.WeiboQueryService"/>-->
+        <!--<property name="remoteAppkey" value="com.starocto.dao."/>-->
+        <!--<property name="remoteServerPort" value="8410"/>-->
+        <!--<property name="mtThriftPoolConfig" ref="thriftPoolConfig"/>-->
+        <!--<property name="appKey" value="${app.name}"/>-->
+        <!--<property name="timeout" value="${quora-search-api.timeout:500}"/>-->
+        <!--&lt;!&ndash;<property name="remoteUniProto" value="true"/>&ndash;&gt;-->
+    <!--</bean>-->
+
+
+</beans>
