@@ -20,7 +20,7 @@
   </properties>
 
   <dependencies>
-    <!--注解等-->
+    <!--注解-->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
