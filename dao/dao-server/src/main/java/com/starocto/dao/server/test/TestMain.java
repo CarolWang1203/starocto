@@ -25,6 +25,8 @@ public class TestMain {
 
         UserRegisterInfoResp userRegisterInfoResp = weiboQueryService.queryUserRegisterInfoDO("fuermoxun");
         System.out.println(userRegisterInfoResp);
+        //这里有问题
+
 //        SqlSession sqlSession = null;
 //        try{
 //            sqlSession = SqlSessionFactoryUtil.openSqlSession();
