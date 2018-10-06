@@ -1,2 +1,0 @@
-# starocto
-miniblog demo
